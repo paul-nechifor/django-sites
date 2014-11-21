@@ -39,6 +39,8 @@ DATABASES = {
     }
 }
 
+TEMPLATE_DIRS = [path.join(BASE_DIR, 'templates')]
+
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 USE_I18N = True
